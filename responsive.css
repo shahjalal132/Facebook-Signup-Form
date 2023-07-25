@@ -1,0 +1,54 @@
+/* Responsive design start */
+
+@media (max-width: 810px) {
+    .header_area {
+        width: 100%;
+        display: flex;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+
+    .header_area .logo_area {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_area .login_area{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        float: none;
+    }
+
+    .main_area_row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main_area_left{
+        width: 100%;
+    }
+
+    .main_area_right{
+        width: 100%;
+    }
+
+    .footer_bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_bottom ul{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
